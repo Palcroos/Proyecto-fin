@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    background: url(imagenes/naranja.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15ch;
+    background: url(imagenes/estadio.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    z-index: 100;
+    border-bottom: 10px solid black;
+}
+
+.imagen {
+    margin: 35px;
+    width: 150px; 
+    height: auto; 
+
+}
+
+header {
+    margin: 100px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.navegacion {
+    display: flex;
+    margin-right: 10px;
+    
+}
+
+.navegacion a {
+    display: block;
+    padding: 23px 20px;
+    margin-right: 40px;
+    color: white;
+    text-decoration: none;
+    text-transform: unset;
+}
+/*-------------------------COCHES------------------*/
+
+
+.cuerpo {
+    margin: 25px;
+}
+
+.encabez {
+    color: black;
+}
+
+.car {
+    color: white;
+    background: url(imagenes/negro.png);
+    padding: 35px;
+    margin: 30px;
+    background-color: #F2F3F4;
+    text-align: center;
+    border: 5px solid #1DE5CA;
+    border-radius: 45px;
+    box-shadow: 0 0rem 7rem rgb(0, 0, 0);
+
+}
+
+
+.car2 {
+    color: white;
+    background: url(imagenes/negro.png);
+    padding: 35px;
+    margin: 30px;
+    background-color: #F2F3F4;
+    padding: 35px;
+    text-align: center;
+    border: 5px solid #2A79EC;
+    border-radius: 45px;
+    box-shadow: 0 0rem 7rem rgb(0, 0, 0);
+
+}
+
+.car3 {
+    color: white;
+    background: url(imagenes/negro.png);
+    padding: 35px;
+    margin: 30px;
+    background-color: #F2F3F4;
+    padding: 35px;
+    text-align: center;
+    border: 5px solid #F422F6;
+    border-radius: 45px;
+    box-shadow: 0 0rem 7rem rgb(0, 0, 0);
+
+}
+
+.imagenoctane {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px; 
+    height: auto; 
+    margin: 30px;
+    margin-top: 140px;
+    margin-left: 45%;
+    background-color: #F2F3F4;
+    border: 5px solid #1DE5CA;
+    border-radius: 30px;
+}
+
+.imagenfennec {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width: 300px; 
+    height: auto; 
+    margin: 30px;
+    margin-top: 140px;
+    margin-left: 45%;
+    background-color: #F2F3F4;
+    border: 5px solid #2A79EC;
+    border-radius: 30px;
+}
+
+.imagendominus {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width: 300px; 
+    height: auto; 
+    margin: 30px;
+    margin-top: 140px;
+    margin-left: 45%;
+    border: 5px solid #F422F6;
+    border-radius: 30px;
+}
+
+.videofen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px; 
+    height: auto; 
+    margin: 30px;
+    margin-top: 14px;
+    margin-left: 45%;
+    border: 5px solid #000000;
+    border-radius: 30px;
+}
+
+.audi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px; 
+    margin: 30px;
+    margin-top: 14px;
+    margin-left: 45%;
+    border: 5px solid #000000;
+    border-radius: 30px;
+}

@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: monospace;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15ch;
+    background: url(imagenes/estadio.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    z-index: 100;
+    border-bottom: 10px solid rgba(229, 249, 11, 0.64);
+}
+
+.imagen {
+    margin: 35px;
+    width: 150px; 
+    height: auto; 
+
+}
+
+header {
+    margin: 100px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.navegacion {
+    display: flex;
+    margin-right: 10px;
+    
+}
+
+.navegacion a {
+    display: block;
+    padding: 23px 20px;
+    margin-right: 40px;
+    color: white;
+    text-decoration: none;
+    text-transform: unset;
+}
+
+
+/*-------------------------PROFESIONALES------------------*/
+
+.articulos {
+    color: white;
+    display: flex;
+    font-family: monospace;
+    justify-content: space-between;
+    padding: 20px 10px;
+    background-color: #100f12;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 30px 30px;
+    margin-top: 30px 30px;
+    border-radius: px;
+    box-shadow: 0 .3rem 5rem rgb(0, 0, 0);
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 30px 30px;
+    margin-top: 30px 30px;
+    border-radius: 0px;
+    box-shadow: 0 .3rem 5rem rgb(0, 0, 0);
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 30px 30px;
+    margin-top: 30px 30px;
+    border-radius: 0px;
+    box-shadow: 0 .3rem 5rem rgb(0, 0, 0);
+}
+
+.tabla {
+    color: white;
+    width: 100%;
+    border: 2px solid rgb(248, 240, 6); 
+}
+
+.cuerpo2 {
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+
+.equipos {
+    padding: 30px;
+    width: 75;
+    margin-top: 55px;
+    margin-right: 100px;
+    border-radius: 40px;
+    box-shadow: 0 .3rem 5rem rgb(0, 0, 0);
+    box-shadow: 0 .3rem 5rem rgb(0, 0, 0);
+    margin-left: 50px;
+}
+
+.imagenes {
+    padding: 30px;
+    border: 2px solid rgb(248, 240, 6);
+    margin-top: px;
+    margin-left: 100px;
+    border-radius: 40px;
+    margin: 35px;
+    width: 390px; 
+    height: auto; 
+    box-shadow: 0 0rem 7rem rgb(0, 0, 0);
+
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    background: url(imagenes/camporl.jpg);
+    background-size: cover;
+    background-position: center; 
+    height: 100vh; 
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15ch;
+    background: url(imagenes/estadio.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    z-index: 100;
+    border-bottom: 10px solid rgba(134, 24, 223, 0.684);
+}
+
+.imagen {
+    margin: 35px;
+    width: 150px; 
+    height: auto; 
+
+}
+
+header {
+    margin: 100px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.navegacion {
+    display: flex;
+    margin-right: 10px;
+    
+}
+
+.navegacion a {
+    display: block;
+    padding: 23px 20px;
+    margin-right: 40px;
+    color: white;
+    text-decoration: none;
+    text-transform: unset;
+}
+
+/*-------------------------MÚSICA------------------*/
+
+
+.encabez {
+    padding: 35px;
+    margin: 30px;
+    background-color: #ab18dc61;
+    text-align: center;
+    border-radius: 45px;
+}
+
+.tabla {
+    padding: 70px;
+    margin: 30px;
+    background-color: #ab18dc61;
+    text-align: center;
+    border-radius: 45px;
+}
+
+.audi5 {
+    color: white;
+    background: url(imagenes/negro.png);
+    padding: 35px;
+    margin: 30px;
+    background-color: #F2F3F4;
+    text-align: center;
+    border: 5px solid #1DE5CA;
+    border-radius: 45px;
+    box-shadow: 0 0rem 7rem rgb(0, 0, 0);
+}
+
+.audi {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width: 300px; 
+    margin: 30px;
+    margin-top: 14px;
+    margin-left: 45%;
+    border: 5px solid #000000;
+    border-radius: 30px;
+}
+

@@ -1,0 +1,220 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    background: url(imagenes/img3.jpg);
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+
+.slidebar_nav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #1f1d1d;
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.slidebar_nav {
+    padding: 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    display: block;
+    text-align: justify;
+}
+
+.slidebar_nav a:hover {
+    color: #000;
+    font-weight: 700;
+    background-color: gold;
+    border-radius: 10px;
+}
+
+.slidebar_nav i{
+    margin-right: 5px;
+}
+
+
+
+.container .btn-primary:hover:hover {
+    background: none;
+}
+
+.imagen {
+    margin: 35px;
+    width: 150px; 
+    height: auto; 
+
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15ch;
+    background: url(imagenes/estadio.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    z-index: 100;
+    border-bottom: 10px solid black;
+    top: 0;
+    position: fixed;
+}
+
+.navegacion {
+    display: flex;
+    margin-right: 10px;
+    
+}
+
+.navegacion a {
+    display: block;
+    padding: 23px 20px;
+    margin-right: 40px;
+    color: white;
+    text-decoration: none;
+    text-transform: unset;
+}
+
+header {
+    margin: 100px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.titulo {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.wtfisthis {
+    padding: 80px;
+    background-color: #1f1d1d;
+    border-radius: 30px;
+}
+
+
+.comunity {
+    color: #1f1d1d;
+    padding: 60px;
+    background-color: #1DE5CA;
+    border-radius: 30px;
+
+}
+
+.esports {
+    border: 4px solid #1DE5CA;
+    padding: 50px;
+    color: black;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+}
+
+.articulos {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 100px;
+    background-color: #1f1d1d;
+    text-align: center;
+    border-top: 10px solid rgba(7, 7, 6, 0.64);
+    border-bottom: 10px solid black;
+
+}
+
+.box a {
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 150px 150px;
+    margin-top: 10px 100px;
+    background: url(imagenes/cochelogo2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    box-shadow: 0 .3rem 5rem rgb(216, 18, 199);
+}
+.box1 a {
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 150px 150px;
+    margin-top: 10px 100px;
+    background: url(imagenes/throttle.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    box-shadow: 0 .3rem 5rem rgb(69, 144, 231);
+}
+.box2 a {
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 150px 150px;
+    margin-top: 10px 100px;
+    background: url(imagenes/squishy.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    box-shadow: 0 .3rem 5rem rgb(250, 215, 160);
+}
+
+.cuerpo2 {
+    padding: 20px;
+    margin-top: 100px;
+    background-color: rgba(9, 9, 9, 0.929);
+    color: rgb(180, 179, 179);
+    font-family: monospace;
+    position: relative;
+    background-size: cover;
+    text-align: center;
+    border-bottom: 10px solid rgba(0, 0, 0, 0.586);
+    border-top: 10px solid black;
+    border-radius: 50PX;
+    box-shadow: 0 0rem 7rem rgb(0, 0, 0);
+
+}
+
+.imagenes {
+    padding: 0px;
+    border: 2px solid rgb(9, 104, 138);
+    border-radius: 40px;
+    margin: 35px;
+    width: 390px; 
+    height: auto;
+    margin-left: 100px;
+}
+
+.equipos {
+    background-color: #1f1d1d;
+    padding: 30px;
+    width: 75;
+    margin-top: 55px;
+    margin-right: 100px;
+    border-radius: 40px;
+    box-shadow: 0 .3rem 5rem rgb(0, 0, 0);
+    margin-left: 70px;
+
+}
+
+
+
+
+
+

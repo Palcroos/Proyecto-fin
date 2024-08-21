@@ -1,0 +1,68 @@
+<div class="boton">
+    <button></button>
+</div>
+
+<div class="container">
+    <h1>¡Hola, Bootstrap!</h1>
+    <p>Este es un ejemplo básico de cómo utilizar Bootstrap.</p>
+    <button class="btn btn-primary">Botón Primario</button>
+    <button class="btn btn-secondary">Botón Secundario</button>
+
+</div>
+
+
+.container .btn-primary:hover:hover {
+    background: none;
+}
+
+
+
+
+
+
+    background: url(imagenes/estadio.webp);
+
+
+
+            background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+            background-position: center; /* Centra la imagen */
+            height: 100vh; /* Altura del cuerpo al 100% del viewport height */
+
+
+
+
+
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 100px;
+    margin: 150px;
+    background-color: #272a2a;
+    text-align: center;
+    border-radius: 45px;
+
+
+
+
+
+
+
+
+                <div class="box">
+                <h2><font size="10" face="monospace">¿Qué hacen?</font></h2>
+            </div>
+            <div class="box">
+                <h2><font size="10" face="monospace">¿Quiénes son?</font></h2>
+            </div>
+            <div class="box">
+                <h2><font size="10" face="monospace">Equipos</font></h2>
+            </div>
+
+
+
+
+    <nav class="slidebar_nav">
+        <a href="#"><i class="bx bx-home-alt-2"></i>Inicio</a>
+        <a href="#"><i class="bx bx-briefcase"></i>Inicio</a>
+    </nav>
+    <main class="content_main">
+        <h1>Menú lateral fijo</h1>

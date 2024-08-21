@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: monospace;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15ch;
+    background: url(imagenes/estadio.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    z-index: 100;
+}
+
+.imagen {
+    margin: 35px;
+    width: 150px; 
+    height: auto; 
+
+}
+
+header {
+    margin: 100px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.navegacion {
+    display: flex;
+    margin-right: 10px;
+    
+}
+
+.navegacion a {
+    display: block;
+    padding: 23px 20px;
+    margin-right: 40px;
+    color: white;
+    text-decoration: none;
+    text-transform: unset;
+}
